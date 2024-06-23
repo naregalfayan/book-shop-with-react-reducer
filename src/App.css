@@ -1,0 +1,60 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.row {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  gap: 20px;
+}
+
+.product_list_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 70%;
+}
+
+.product_list_container div {
+  flex: 0 0 15%;
+}
+
+.product_list_container img {
+  width: 200px;
+  aspect-ratio: 2/3;
+}
+
+.basket_container {
+  width: 45%;
+}
+
+table {
+  width: 45%;
+  border-collapse: collapse;
+}
+
+table,
+tr,
+td,
+th {
+  border: 2px solid gainsboro;
+  padding: 10px;
+}
+
+th {
+  width: fit-content;
+  min-width: 96px;
+}
+
+.action-button {
+  margin: 4px;
+  cursor: pointer;
+}
